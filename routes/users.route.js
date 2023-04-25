@@ -1,5 +1,5 @@
 import express from "express";
-import db from "../mockdb/index.js";
+import db from "../mydb/index.js";
 
 const userRouter = express.Router();
 
