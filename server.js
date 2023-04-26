@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/api", router);
+app.use("/", router);
 
 
 // TODO: use the imported router to handle all requests
